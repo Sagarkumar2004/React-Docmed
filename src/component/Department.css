@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.DepartmentImage{
+    width: auto;
+    height: 80vh;
+    background-image:  radial-gradient(circle at left, rgb(31, 202, 255), transparent),url(/src/Image/p9.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Department-text{
+    width: 20vw;
+    height: 20vh;
+    font-size: 28px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 100px 80px;
+}
+.container{
+    width: auto;
+    height: 400px;
+    display: flex;
+}
+.container .box1{
+    width: 50vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-image:  radial-gradient(circle at left, rgb(31, 202, 255), transparent),url(/src/Image/p7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+.container .box2{
+    width: 50vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-image:  radial-gradient(circle at left, rgb(31, 202, 255), transparent),url(/src/Image/p6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+.container .box-text{
+    width: 25vw;
+    height: 100px;
+    margin: auto;
+    
+}
+.btn2{
+    width: 230px;
+    height: 60px;
+    background-color: transparent;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 23px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: rgb(31, 202, 250);
+    border: 1px solid transparent;
+    
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+   
+    .home-text{
+       
+        padding: 0px;
+    }
+    .container{
+        width: auto;
+        height: 600px;
+        flex-direction: column;
+       
+
+    }
+    .container .box-text{
+        width: auto;
+       
+        
+    }
+
+    .container .box1{
+        width: auto;
+        height: 300px;
+        overflow: hidden;
+        flex-direction: column;
+      
+    }
+    .container .box2{
+        width: auto;
+        height: 300px;
+        flex-direction: column;
+        overflow: hidden;
+       
+    }
+
+    .btn2{
+        width: auto;
+       
+    }
+   
+}

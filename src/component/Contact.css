@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.ContactImage{
+    width: auto;
+    height: 75vh;
+    background-image:  radial-gradient(circle at left, rgb(31, 202, 255), transparent),url(/src/Image/p8.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Contact-text{
+    width: 20vw;
+    height: 20vh;
+    font-size: 28px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 100px 80px;
+}
+/* contact Box */
+.contact-container{
+    width: auto;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-box{
+    width: 80vw;
+    height: 600px;
+    margin: 10px;
+}
+#name{
+    width: 70vw;
+    height: 50px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 0px 6px;
+     font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+#email{
+    width: 30vw;
+    height: 50px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 0px 6px;
+     font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+#subject{
+    width: 30vw;
+    height: 50px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 0px 6px;
+     font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+#number{
+    width: 30vw;
+    height: 50px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 0px 6px;
+     font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+#massage{
+    width: 70vw;
+    height: 100px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 0px 6px;
+     font-family: 'Source Sans Pro', sans-serif;
+
+}
+#submit{
+    width: 100px;
+    height: 70px;
+    margin: 15px;
+    background-color: transparent;
+    color: rgb(31, 203, 255);
+    border: 1px solid rgb(31, 202, 250);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600px;
+    font-size: 24px;
+}
+#submit:hover{
+   
+    background-color: rgb(33, 33, 250);
+    color: white;
+    border: 1px solid transparent;
+   
+}
+#submit:active{
+    background-color: red;
+   
+}
+#submit:visited{
+    background-color: green;
+   
+}
+.support-box{
+    width: 20vw;
+    height: 400px;
+
+}
+.support-box .sm-box{
+    width: auto;
+    height: 60px;
+    margin-top: 40px;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+    #no-btn {
+        display: none;
+    }
+    
+   
+    .support-box .sm-box{
+        overflow: hidden;
+         height: 150px;
+         margin-top: 0px;
+         font-size: 18px;
+     
+     }
+    
+    .footer {
+        height: 700px;
+        flex-direction: column;
+        flex-flow: column;
+
+    }
+
+    .footer-box1 {
+        width: 70vw;
+        height: 350px;
+
+        line-height: 24px;
+        font-size: 24px;
+        margin: 100px;
+    }
+
+    .footer-box2 {
+        width: auto;
+        height: 350px;
+        padding: 60px;
+        margin: 0px 0px;
+        font-size: 22px;
+        line-height: 30px;
+        word-spacing: 4px;
+    }
+}
+@media screen and (max-width: 560px) {
+
+    /* set Menu */
+    .nav {
+       flex-direction: column;
+        height: 400px;
+    
+    }
+    .navlist{
+        width: auto;
+        margin: 0px;
+       
+
+    }
+    .h-nav{
+        width: auto;
+        height: 60px;
+        background-color: rgb(31, 203, 255);
+    }
+    .v-class{
+        opacity: 0;
+        display: none;
+        transition: 0.5s;
+    }
+    .menu{
+        display: block;
+
+    }
+
+    .navlist ul {
+        flex-direction: column;
+        margin: auto;
+        transition: 0.5s;
+
+    }
+
+    .navlist ul li {
+        padding: 8px;
+    }
+
+    /* end menu */
+    .contact-container{
+        width: auto;
+        height: 1000px;
+        padding: 20px;
+       flex-direction: column;
+    }
+    #name{
+        margin: 5px;
+    
+    }
+    #email{
+        width: 70vw;
+        margin: 5px;
+      
+    }
+    #subject{
+        width: 70vw;
+        margin: 5px;
+    
+    }
+    #number{
+        width: 70vw;
+        margin: 5px;
+    
+    }
+    #massage{
+        margin: 5px;
+    
+    }
+    /* support- Box */
+    .support-box{
+        width: auto;
+    
+    }
+    .support-box .sm-box{
+        
+        height: 100px;
+        margin-top: 10px;
+        font-size: 24px;
+    
+    }
+
+    .footer {
+        height: 1200px;
+    }
+
+    .footer-box2 {
+        flex-direction: column;
+        font-size: 22px;
+
+    }
+    
+}
