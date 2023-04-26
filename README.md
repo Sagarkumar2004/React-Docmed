@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project is live here https://sagarkumar2004.github.io/React-Docmed/.
+This project is live here https://sagarkumar2004.github.io/React-Docmed/, you can follow the following steps.
+
 
 ## Available Scripts
 
